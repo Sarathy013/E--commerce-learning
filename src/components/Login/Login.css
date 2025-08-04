@@ -1,0 +1,85 @@
+
+
+* {
+  box-sizing: border-box;
+
+  margin: 29;
+  padding: 29;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login-page{
+  background-image: url("C:\Users\sarat\OneDrive\Desktop\hack\my-vue-app\src\assets\image11.jpg");
+background-size: cover; /* Optional: makes the image cover the entire background */
+background-position: center; /* Optional: centers the image */
+background-repeat: no-repeat; 
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+align-items:left;
+
+padding-left: 0px;
+padding-right: 500px; 
+}
+
+
+
+.login-box h2 {
+  margin-bottom: 25px;
+  color: #980202;
+}
+
+.input-group {
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 10px;
+  color: #040404;
+  text-shadow: #980202;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #f416a2;
+  border-radius: 8px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.input-group input:focus {
+  border-color: #3498db;
+}
+
+.btn {
+  border: none;
+  padding: 12px;
+  width: 100%;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: #2980b9;
+}
+
+.footer-text {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #777;
+}
+
+.footer-text a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+.footer-text a:hover {
+  text-decoration: underline;
+}
