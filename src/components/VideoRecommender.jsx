@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { Play, Clock, Eye, ThumbsUp, BookOpen, Code, Trophy, Calendar, User, Search, Filter, Star, Bookmark, TrendingUp, Zap, Loader, Youtube } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
-
+import env from '../env
 
 const VideoRecommender = () => {
   const [currentPage, setCurrentPage] = useState('recommendations');
@@ -14,8 +14,7 @@ const VideoRecommender = () => {
   const [nextPageToken, setNextPageToken] = useState('');
 
 
-  const YOUTUBE_API_KEY = 'AIzaSyAOQS7_yi042rUE0o4wlT40jQgiCVGytTc'; 
-  const YOUTUBE_API_BASE = 'https://www.googleapis.com/youtube/v3';
+ 
 
   
   const categories = [
